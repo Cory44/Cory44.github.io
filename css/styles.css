@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  width: 80%;
+  margin: 0px auto;
+}
+
+#header {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#title { 
+  text-align: center;
+  width: 60%;
+}
+
+#title h4 {
+  margin-bottom: 35px;
+}
+
+#spacer, #social { 
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0px 16px;;
+}
+
+#social {
+}
+
+#social img {
+  width: 35px;
+  padding-left: 3px;
+}
+
+nav > ul {
+  padding: 0px;
+}
+
+nav > ul > div {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+#nav-items li{
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+li > a {
+  text-decoration: none;
+  color: grey;
+}
+
+li > a:hover {
+  color: black;
+}
+
+#menu {
+  display: none;
+}
+
+#menu > a {
+  color: black;
+}
+
+#main {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 16px;
+}
+
+#about {
+  width: 66.66%;
+  margin: 0px;
+}
+
+#about h2 {
+  margin-top: 0px;
+}
+
+#me {
+  width: 33.33%;
+  margin: 0px;
+  text-align: center;
+}
+
+#me img {
+  width: 70%;
+}
+
+.row { 
+  padding: 16px;
+}
+
+.activites {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.dal {
+  width: 33.33%;
+  padding: 16px;
+}
+
+.activites  h4 { 
+  margin: 0px;
+}
+
+#copy {
+  margin: 50px 16px;
+  color: grey;
+  font-size: 75%;
+}
+
+.activites li {
+  font-size: 80%;
+  padding-bottom: 10px;
+}
+
+.org {
+  margin-top: 5px;
+  color: grey;
+  font-size: 70%;
+}
+
+.org a {
+  color: grey;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #spacer {
+    width: 0%;
+  }
+
+  #title, #social {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #title h4 {
+    margin-bottom: 16px;
+  }
+
+  nav > ul {
+    flex-flow: column;
+    margin: 0px;
+  }
+
+  nav li {
+    margin-bottom: 20px;
+  }
+
+  #menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #nav-items {
+    display: none;
+  }
+
+  #main {
+    flex-flow: column-reverse;
+  }
+
+  #about, #me {
+    width: 100%;
+  }
+ 
+  #me img { 
+    width: 50%; 
+  }
+
+ .dal { 
+    width: 100%;
+  }
+}
