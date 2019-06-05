@@ -126,7 +126,7 @@ li > a:hover {
 .activites li {
   font-size: 80%;
   padding-bottom: 10px;
-}
+} 
 
 .org {
   margin-top: 5px;
@@ -136,6 +136,10 @@ li > a:hover {
 
 .org a {
   color: grey;
+}
+
+.activity a {
+  color: black;
 }
 
 @media screen and (max-width: 1000px) {
