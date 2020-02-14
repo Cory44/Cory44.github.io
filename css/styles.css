@@ -113,6 +113,12 @@ li > a:hover {
   padding: 16px;
 }
 
+.experience {
+    width: 33.33%;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
 .activites  h4 { 
   margin: 0px;
 }
