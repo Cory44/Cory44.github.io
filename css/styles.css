@@ -144,6 +144,10 @@ li > a:hover {
   color: grey;
 }
 
+.activity {
+  font-size: 0.85em;
+}
+
 .activity a {
   color: black;
 }
