@@ -9,15 +9,15 @@
 	<script src="scripts/script.js"></script>
 </head>
 
-<body onload="display()" onresize="display()">
+<body onload="display(), year()" onresize="display()">
 	<header>
 		<div id="header">
 			<div id="spacer"></div>
-				<div id="title">
-					<h1>Cory Loughran</h1>
-					<h4>Halifax, Nova Scotia</h4>
-					<h4>Ottawa, Ontario</h4>
-				</div>
+			<div id="title">
+				<h1>Cory Loughran</h1>
+      	<h4 id="city">Halifax, Nova Scotia</h4>
+      	<h4 id="secondCity">Ottawa, Ontario</h4>
+			</div>
 			<div id="social">
 				<a href="https://www.linkedin.com/in/coryloughran/" target="_blank">
 					<img src="images/In-2C-89px-R.png" alt="linkedin logo">
@@ -30,18 +30,18 @@
 				</a>
 			</div>
 		</div>
-	<hr>
-	<nav>
-		<ul>
-		<li onclick="show()" id="menu"><a href="#">Menu</a></li>
-		<div id="nav-items">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="education.html">Education</a></li>
-			<li><a href="projects.html">Projects</a></li>
-		</div>
-		</ul>
-	</nav>
-	<hr>
+		<hr>
+		<nav>
+			<ul>
+				<li onclick="show()" id="menu"><a href="#">Menu</a></li>
+				<div id="nav-items">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="education.html">Education</a></li>
+					<li><a href="projects.html">Projects</a></li>
+				</div>
+			</ul>
+		</nav>
+		<hr>
 	</header>
 
 	<main>
@@ -51,7 +51,7 @@
 			<div class="activites">
 
 				<div class="experience">
-					<h4>Itegrated Data Environment Co-op Student</h4>
+					<h4>Integrated Data Environment Co-op Student</h4>
 					<h4 class="activity"><a href="https://www.canada.ca/en/department-national-defence.html" target="_blank">Department of National Defence</a></h4>
 					<h5 class="org"><em>January 2020 to April 2020 - Ottawa, Ontario</em></h5>
 					<ul>
@@ -106,7 +106,7 @@
 	</main>
 
 	<footer>
-			<p id="copy">&copy; Cory Loughran 2019</p>
+			<p id="copy">&copy; Cory Loughran <span id="year"></span></p>
 	</footer>
 </html>
 </body>

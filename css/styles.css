@@ -175,7 +175,12 @@ li > a:hover {
     justify-content: center;
   }
 
-  #title h4 {
+  #city {
+  margin: 0px;
+  }
+
+  #title #secondCity {
+    margin-top: 0px;
     margin-bottom: 16px;
   }
 
