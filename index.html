@@ -9,13 +9,14 @@
   <script src="scripts/script.js"></script>
 </head>
 
-<body onload="display()" onresize="display()">
+<body onload="display(), year()" onresize="display()">
   <header>
     <div id="header">
       <div id="spacer"></div>
       <div id="title">
         <h1>Cory Loughran</h1>
-        <h4>Halifax, Nova Scotia</h4>
+        <h4 id="city">Halifax, Nova Scotia</h4>
+        <h4 id="secondCity">Ottawa, Ontario</h4>
       </div>
       <div id="social">
         <a href="https://www.linkedin.com/in/coryloughran/" target="_blank">
@@ -37,9 +38,6 @@
           <li><a href="experience.html">Experience</a></li>
           <li><a href="education.html">Education</a></li>
           <li><a href="education.html">Projects</a></li>
-	        <li><a href="contact.html">Contact</a></li>
-	        <!-- <li><a href="mailto:loughrancory@gmail.com">Email</a></li> -->
-          <!-- <li><a href="projects.html">Projects</a></li> -->
         </div>
       </ul>
     </nav>
@@ -95,7 +93,7 @@
   </main>
   <hr>
   <footer>
-    <p id="copy">&copy; Cory Loughran 2019</p>
+    <p id="copy">&copy; Cory Loughran <span id="year"></span></p>
   </footer>
 
 </body>

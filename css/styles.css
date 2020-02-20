@@ -19,9 +19,16 @@ body {
   width: 60%;
 }
 
-#title h4 {
+#city {
+  margin: 0px;
+}
+
+#title #secondCity {
+  margin-top: 0px;
   margin-bottom: 35px;
 }
+
+
 
 #spacer, #social { 
   width: 20%;
@@ -204,6 +211,10 @@ li > a:hover {
   }
 
  .dal { 
+    width: 100%;
+  }
+
+  .experience {
     width: 100%;
   }
 }
