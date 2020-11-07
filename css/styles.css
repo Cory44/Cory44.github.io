@@ -159,6 +159,23 @@ li > a:hover {
   color: black;
 }
 
+.header {
+  display: flex;
+  padding-bottom: 0;
+}
+
+.header-text {
+  width: 80%;
+}
+
+.header-image {
+  width: 20%;
+}
+
+.icon {
+  width: 80%;
+}
+
 @media screen and (max-width: 1000px) {
   body {
     width: 100%;
