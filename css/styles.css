@@ -176,6 +176,10 @@ li > a:hover {
   width: 80%;
 }
 
+#clc {
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 1000px) {
   body {
     width: 100%;
