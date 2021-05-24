@@ -121,9 +121,9 @@ li > a:hover {
 }
 
 .experience {
-    width: 33.33%;
-    padding: 16px;
-    margin-bottom: 20px;
+  width: 33.33%;
+  padding: 16px;
+  margin-bottom: 20px;
 }
 
 .activites  h4 { 
@@ -197,7 +197,7 @@ li > a:hover {
   }
 
   #city {
-  margin: 0px;
+    margin: 0px;
   }
 
   #title #secondCity {
@@ -231,12 +231,12 @@ li > a:hover {
   #about, #me {
     width: 100%;
   }
- 
+  
   #me img { 
     width: 50%; 
   }
 
- .dal { 
+  .dal { 
     width: 100%;
   }
 
